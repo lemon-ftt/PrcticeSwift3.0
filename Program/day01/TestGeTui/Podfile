@@ -1,0 +1,7 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '9.0'
+
+target 'TestGeTui' do
+  pod 'GTSDK', '~> 1.6.2.0-noidfa'
+
+end

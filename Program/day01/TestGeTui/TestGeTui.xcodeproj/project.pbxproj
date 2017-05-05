@@ -1,0 +1,394 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		276CAFAB1EA0B87E00887447 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 276CAFAA1EA0B87E00887447 /* main.m */; };
+		276CAFAE1EA0B87E00887447 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 276CAFAD1EA0B87E00887447 /* AppDelegate.m */; };
+		276CAFB11EA0B87E00887447 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 276CAFB01EA0B87E00887447 /* ViewController.m */; };
+		276CAFB41EA0B87E00887447 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 276CAFB21EA0B87E00887447 /* Main.storyboard */; };
+		276CAFB61EA0B87E00887447 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 276CAFB51EA0B87E00887447 /* Assets.xcassets */; };
+		276CAFB91EA0B87E00887447 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 276CAFB71EA0B87E00887447 /* LaunchScreen.storyboard */; };
+		94E8DB457B75E68473F27FFE /* libPods-TestGeTui.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5536C986D651AA334D241DBC /* libPods-TestGeTui.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0D2B9D25F4C775AAE7055084 /* Pods-TestGeTui.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestGeTui.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestGeTui/Pods-TestGeTui.debug.xcconfig"; sourceTree = "<group>"; };
+		276CAFA61EA0B87D00887447 /* TestGeTui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestGeTui.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		276CAFAA1EA0B87E00887447 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		276CAFAC1EA0B87E00887447 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		276CAFAD1EA0B87E00887447 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		276CAFAF1EA0B87E00887447 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		276CAFB01EA0B87E00887447 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		276CAFB31EA0B87E00887447 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		276CAFB51EA0B87E00887447 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		276CAFB81EA0B87E00887447 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		276CAFBA1EA0B87E00887447 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5536C986D651AA334D241DBC /* libPods-TestGeTui.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestGeTui.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7135EA3F94AE2FBEDE06A8E0 /* Pods-TestGeTui.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestGeTui.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestGeTui/Pods-TestGeTui.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		276CAFA31EA0B87D00887447 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94E8DB457B75E68473F27FFE /* libPods-TestGeTui.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		276CAF9D1EA0B87D00887447 = {
+			isa = PBXGroup;
+			children = (
+				276CAFA81EA0B87D00887447 /* TestGeTui */,
+				276CAFA71EA0B87D00887447 /* Products */,
+				4B79EE593D1BD686F277EFA4 /* Pods */,
+				27DAAD98D331DD3387274680 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		276CAFA71EA0B87D00887447 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				276CAFA61EA0B87D00887447 /* TestGeTui.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		276CAFA81EA0B87D00887447 /* TestGeTui */ = {
+			isa = PBXGroup;
+			children = (
+				276CAFAC1EA0B87E00887447 /* AppDelegate.h */,
+				276CAFAD1EA0B87E00887447 /* AppDelegate.m */,
+				276CAFAF1EA0B87E00887447 /* ViewController.h */,
+				276CAFB01EA0B87E00887447 /* ViewController.m */,
+				276CAFB21EA0B87E00887447 /* Main.storyboard */,
+				276CAFB51EA0B87E00887447 /* Assets.xcassets */,
+				276CAFB71EA0B87E00887447 /* LaunchScreen.storyboard */,
+				276CAFBA1EA0B87E00887447 /* Info.plist */,
+				276CAFA91EA0B87E00887447 /* Supporting Files */,
+			);
+			path = TestGeTui;
+			sourceTree = "<group>";
+		};
+		276CAFA91EA0B87E00887447 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				276CAFAA1EA0B87E00887447 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		27DAAD98D331DD3387274680 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5536C986D651AA334D241DBC /* libPods-TestGeTui.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4B79EE593D1BD686F277EFA4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0D2B9D25F4C775AAE7055084 /* Pods-TestGeTui.debug.xcconfig */,
+				7135EA3F94AE2FBEDE06A8E0 /* Pods-TestGeTui.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		276CAFA51EA0B87D00887447 /* TestGeTui */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 276CAFBD1EA0B87E00887447 /* Build configuration list for PBXNativeTarget "TestGeTui" */;
+			buildPhases = (
+				5EE87E90CB99EBCA0F4A9792 /* [CP] Check Pods Manifest.lock */,
+				276CAFA21EA0B87D00887447 /* Sources */,
+				276CAFA31EA0B87D00887447 /* Frameworks */,
+				276CAFA41EA0B87D00887447 /* Resources */,
+				99A31D97AA726D49B4414927 /* [CP] Embed Pods Frameworks */,
+				CC4145D9DD26E8C08368C6F3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestGeTui;
+			productName = TestGeTui;
+			productReference = 276CAFA61EA0B87D00887447 /* TestGeTui.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		276CAF9E1EA0B87D00887447 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = tantan;
+				TargetAttributes = {
+					276CAFA51EA0B87D00887447 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = GLKJJ23FAT;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 276CAFA11EA0B87D00887447 /* Build configuration list for PBXProject "TestGeTui" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 276CAF9D1EA0B87D00887447;
+			productRefGroup = 276CAFA71EA0B87D00887447 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				276CAFA51EA0B87D00887447 /* TestGeTui */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		276CAFA41EA0B87D00887447 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				276CAFB91EA0B87E00887447 /* LaunchScreen.storyboard in Resources */,
+				276CAFB61EA0B87E00887447 /* Assets.xcassets in Resources */,
+				276CAFB41EA0B87E00887447 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5EE87E90CB99EBCA0F4A9792 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		99A31D97AA726D49B4414927 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestGeTui/Pods-TestGeTui-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC4145D9DD26E8C08368C6F3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestGeTui/Pods-TestGeTui-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		276CAFA21EA0B87D00887447 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				276CAFB11EA0B87E00887447 /* ViewController.m in Sources */,
+				276CAFAE1EA0B87E00887447 /* AppDelegate.m in Sources */,
+				276CAFAB1EA0B87E00887447 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		276CAFB21EA0B87E00887447 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				276CAFB31EA0B87E00887447 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		276CAFB71EA0B87E00887447 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				276CAFB81EA0B87E00887447 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		276CAFBB1EA0B87E00887447 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		276CAFBC1EA0B87E00887447 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		276CAFBE1EA0B87E00887447 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D2B9D25F4C775AAE7055084 /* Pods-TestGeTui.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GLKJJ23FAT;
+				INFOPLIST_FILE = TestGeTui/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tantan.TestGeTui;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		276CAFBF1EA0B87E00887447 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7135EA3F94AE2FBEDE06A8E0 /* Pods-TestGeTui.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GLKJJ23FAT;
+				INFOPLIST_FILE = TestGeTui/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tantan.TestGeTui;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		276CAFA11EA0B87D00887447 /* Build configuration list for PBXProject "TestGeTui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				276CAFBB1EA0B87E00887447 /* Debug */,
+				276CAFBC1EA0B87E00887447 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		276CAFBD1EA0B87E00887447 /* Build configuration list for PBXNativeTarget "TestGeTui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				276CAFBE1EA0B87E00887447 /* Debug */,
+				276CAFBF1EA0B87E00887447 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 276CAF9E1EA0B87D00887447 /* Project object */;
+}
