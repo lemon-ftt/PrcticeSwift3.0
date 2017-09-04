@@ -12,6 +12,7 @@
 		2748B7341EF7A50000FD7462 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2748B7321EF7A50000FD7462 /* Main.storyboard */; };
 		2748B7361EF7A50000FD7462 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2748B7351EF7A50000FD7462 /* Assets.xcassets */; };
 		2748B7391EF7A50000FD7462 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2748B7371EF7A50000FD7462 /* LaunchScreen.storyboard */; };
+		A22D1F081F5CE18E0079B5EB /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A22D1F071F5CE18E0079B5EB /* DemoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,9 @@
 		2748B7351EF7A50000FD7462 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2748B7381EF7A50000FD7462 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2748B73A1EF7A50000FD7462 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A22D1F051F5CE18D0079B5EB /* 003-闭包的定义-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "003-闭包的定义-Bridging-Header.h"; sourceTree = "<group>"; };
+		A22D1F061F5CE18E0079B5EB /* DemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
+		A22D1F071F5CE18E0079B5EB /* DemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +60,13 @@
 			children = (
 				2748B72E1EF7A4FF00FD7462 /* AppDelegate.swift */,
 				2748B7301EF7A50000FD7462 /* ViewController.swift */,
+				A22D1F061F5CE18E0079B5EB /* DemoViewController.h */,
+				A22D1F071F5CE18E0079B5EB /* DemoViewController.m */,
 				2748B7321EF7A50000FD7462 /* Main.storyboard */,
 				2748B7351EF7A50000FD7462 /* Assets.xcassets */,
 				2748B7371EF7A50000FD7462 /* LaunchScreen.storyboard */,
 				2748B73A1EF7A50000FD7462 /* Info.plist */,
+				A22D1F051F5CE18D0079B5EB /* 003-闭包的定义-Bridging-Header.h */,
 			);
 			path = "003-闭包的定义";
 			sourceTree = "<group>";
@@ -97,6 +104,7 @@
 					2748B72A1EF7A4FF00FD7462 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = GLKJJ23FAT;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -137,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A22D1F081F5CE18E0079B5EB /* DemoViewController.m in Sources */,
 				2748B7311EF7A50000FD7462 /* ViewController.swift in Sources */,
 				2748B72F1EF7A4FF00FD7462 /* AppDelegate.swift in Sources */,
 			);
@@ -261,11 +270,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = GLKJJ23FAT;
 				INFOPLIST_FILE = "003-闭包的定义/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "tantan.-03------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "003-闭包的定义/003-闭包的定义-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -274,11 +286,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = GLKJJ23FAT;
 				INFOPLIST_FILE = "003-闭包的定义/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "tantan.-03------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "003-闭包的定义/003-闭包的定义-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -302,6 +316,7 @@
 				2748B73F1EF7A50000FD7462 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
