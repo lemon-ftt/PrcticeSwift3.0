@@ -48,16 +48,18 @@ extension ViewController:CBCentralManagerDelegate {
            
         }
     }
+    
+    func centralManager(_ central: CBCentralManager, didDiscover peripheral: CBPeripheral, advertisementData: [String : Any], rssi RSSI: NSNumber){ //这里自己去设置下连接规则
+        if (peripheral.name?.hasPrefix("p"))!{
+            //[peripheral.name == :@""] //找到的设备必须持有它，否则CBCentralManager中也不会保存peripheral，那么CBPeripheralDelegate中的方法也不会被调用！！
+            print(peripheral)
+        }
+    }
 
 }
 
 extension ViewController:CBPeripheralDelegate {
-    func centralManager(_ central: CBCentralManager, didDiscover peripheral: CBPeripheral, advertisementData: [String : Any], rssi RSSI: NSNumber){ //这里自己去设置下连接规则 
-        if (peripheral.name?.hasPrefix("p"))!{
-        //[peripheral.name == :@""] //找到的设备必须持有它，否则CBCentralManager中也不会保存peripheral，那么CBPeripheralDelegate中的方法也不会被调用！！
-        print(peripheral)
-    }
-}
+    
         
 //    func peripheral(_ peripheral: CBPeripheral, didDiscoverServices error: Error?) {
 //        print(peripheral)

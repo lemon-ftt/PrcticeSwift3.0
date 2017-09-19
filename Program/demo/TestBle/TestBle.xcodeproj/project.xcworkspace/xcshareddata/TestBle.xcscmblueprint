@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "1BC45A9EAEC2159A7D15D37BF6F537502054A583",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "1BC45A9EAEC2159A7D15D37BF6F537502054A583" : 9223372036854775807,
+    "F6DC43A8511A6D144DD85BBF1D7BE476DC3972C5" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "F59998A1-3A1C-4620-8EE8-BC9E98B0BA42",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "1BC45A9EAEC2159A7D15D37BF6F537502054A583" : "TestBle\/",
+    "F6DC43A8511A6D144DD85BBF1D7BE476DC3972C5" : "..\/.."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "TestBle",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "TestBle.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/fttios\/TestBle.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1BC45A9EAEC2159A7D15D37BF6F537502054A583"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/fttios\/PrcticeSwift3.0.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F6DC43A8511A6D144DD85BBF1D7BE476DC3972C5"
+    }
+  ]
+}
